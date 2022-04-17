@@ -61,7 +61,7 @@
                                     <?php foreach ($antrian as $row) : ?>
                                         <tr>
                                             <td><?= $no; ?></td>
-                                            <td><?= $row['no_rekam_medis']; ?></td>
+                                            <td><?= $row['no_rekmed']; ?></td>
                                             <td><?= $row['nama_pasien']; ?></td>
                                             <td><?= $row['status']; ?></td>
                                             <td><?= $row['id']; ?></td>

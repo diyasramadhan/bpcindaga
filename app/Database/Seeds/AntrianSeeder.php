@@ -13,7 +13,7 @@ class AntrianSeeder extends Seeder
         $faker = \Faker\Factory::create('id_ID');
         for ($i = 0; $i < 50; $i++) {
             $data = [
-                'no_rekam_medis'    => $faker->ean13,
+                'no_rekmed'    => $faker->ean13,
                 'nama_pasien'       => $faker->name,
                 'status'            => 'Sedang Menunggu Panggilan Dokter',
                 'created_at'        => Time::now(),
