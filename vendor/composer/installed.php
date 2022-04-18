@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => 'dev-master',
-        'version' => 'dev-master',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '186a7d016abe5a9524b9e90ae5b260c399e4cee0',
+        'reference' => '7ba65625401bbf532c6a94a816e60378d3e274b4',
         'name' => 'codeigniter4/appstarter',
         'dev' => true,
     ),
     'versions' => array(
         'codeigniter4/appstarter' => array(
-            'pretty_version' => 'dev-master',
-            'version' => 'dev-master',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '186a7d016abe5a9524b9e90ae5b260c399e4cee0',
+            'reference' => '7ba65625401bbf532c6a94a816e60378d3e274b4',
             'dev_requirement' => false,
         ),
         'codeigniter4/authentication-implementation' => array(

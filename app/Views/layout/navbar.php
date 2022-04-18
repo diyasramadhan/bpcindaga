@@ -5,10 +5,19 @@
             <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="/registration" class="nav-link">Pendaftaran Klinik</a>
+            <a href="/home" class="nav-link">Home</a>
         </li>
         <li class="nav-item d-none d-sm-inline-block">
-            <a href="/medication" class="nav-link">Pemeriksaan Dokter</a>
+            <a href="/registration" class="nav-link">Pendaftaran</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/dokter" class="nav-link">Dokter</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/farmasi" class="nav-link">Depo Farmasi</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="/administrasi" class="nav-link">Admistrasi</a>
         </li>
     </ul>
 

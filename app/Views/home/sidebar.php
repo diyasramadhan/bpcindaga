@@ -13,7 +13,7 @@
                 <img src="../../dist/img/user.png" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
-                <a href="/registration" class="d-block">Admin</a>
+                <a href="#" class="d-block">Admin</a>
             </div>
         </div>
 
@@ -48,7 +48,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a href="/antrian" class="nav-link">
+                            <a href="pages/layout/top-nav.html" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Daftar Antrian</p>
                             </a>

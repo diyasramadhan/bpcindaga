@@ -32,17 +32,15 @@
                     <div class="card">
                         <div class="card-header">
                             <h3 class="card-title">Daftar Antrian Pasien</h3>
-
                             <div class="card-tools">
-                                <div class="input-group input-group-sm" style="width: 150px;">
-                                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-
-                                    <div class="input-group-append">
-                                        <button type="submit" class="btn btn-default">
-                                            <i class="fas fa-search"></i>
-                                        </button>
+                                <form action="">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Input Keyword.." name="keyword">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="submit" name="submit">Button</button>
+                                        </div>
                                     </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                         <!-- /.card-header -->
@@ -59,11 +57,11 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php $no = 1 ?>
+                                    <?php $no = 1 + (5 * ($curentPage - 1)) ?>
                                     <?php foreach ($antrian as $row) : ?>
                                         <tr>
                                             <td><?= $no; ?></td>
-                                            <td><?= $row['no_rekam_medis']; ?></td>
+                                            <td><?= $row['no_rekmed']; ?></td>
                                             <td><?= $row['nama_pasien']; ?></td>
                                             <td><?= $row['status']; ?></td>
                                             <td><?= $row['id']; ?></td>
@@ -73,7 +71,7 @@
                                     <?php endforeach; ?>
                                 </tbody>
                             </table>
-                            <?= $pager->links() ?>
+                            <?= $pager->Links('antrian', 'antrian_pagination') ?>
                         </div>
                         <!-- /.card-body -->
                     </div>
